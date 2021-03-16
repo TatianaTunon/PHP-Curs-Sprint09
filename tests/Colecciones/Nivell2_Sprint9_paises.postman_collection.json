@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "fa0867fe-b40f-43c0-8dd6-afe9a4ca80ec",
+		"name": "Nivell2_Sprint9_paises",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises"
+					]
+				},
+				"description": "Ruta get index"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises"
+					]
+				},
+				"description": "Ruta post store"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises",
+						"{paises}"
+					]
+				},
+				"description": "Ruta get show"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises",
+						"{paises}"
+					]
+				},
+				"description": "Ruta put update"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises",
+						"{paises}"
+					]
+				},
+				"description": "Ruta patch update"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/Sprint9_Nivell2/public/paises/{paises}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Sprint9_Nivell2",
+						"public",
+						"paises",
+						"{paises}"
+					]
+				},
+				"description": "Ruta delete destroy"
+			},
+			"response": []
+		}
+	]
+}
