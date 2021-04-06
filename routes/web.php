@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 //RUTAS PASANDO POR CONTROLADOR (acuerdate de poner los use)
-Route::get('/vista1', [BienvenidoController::class, 'vista1'])->name ('hola');
+Route::get('/vista1/{nom}', [BienvenidoController::class, 'vista1'])->name ('hola');
 Route::get('/vista2', [WelcomController::class, 'vista2'])->name ('hi');
 Route::get('/vista3', [BenvingutsController::class, 'vista3'])->name ('benvinguts');
 
